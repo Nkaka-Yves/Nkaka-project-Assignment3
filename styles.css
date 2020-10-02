@@ -46,3 +46,19 @@ html{
 #welcome h1{
     font-size: 100px;
 }
+.container-half{
+    min-height: 50vh;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 70px;
+   
+}
+#about{
+   background-color: white;
+    z-index: 1;
+    color: black;
+    font-size: 500%;
+    position: relative;
+    align-items: baseline;
+}
