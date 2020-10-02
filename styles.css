@@ -62,3 +62,29 @@ html{
     position: relative;
     align-items: baseline;
 }
+.services{
+    min-height: 50vh;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 90px;
+    background-image: url(s_image.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 200%;
+}
+.services::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://64.media.tumblr.com/1e3c1d60053450c506fed589d1314134/tumblr_or5b0vVbeW1w5k72fo1_400.gifv);
+    background-size: cover;
+    opacity: .2;
+    z-index: -1;
+}
