@@ -436,6 +436,11 @@ html{
     
     
    }
+   .med{
+       padding: 3%;
+       align-items: center;
+       padding-left: 20%;
+   }
     
    @media(max-width:600px){
     .p-container{
@@ -465,3 +470,14 @@ html{
      height:400px;
     }
    }
+.end{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color:#050505;
+    font-weight: 400;
+    padding: 40px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    padding-right: 20%;
+}
