@@ -189,4 +189,27 @@ html{
     display: flex;
     
    }
-   
+   .contact{
+       background-image: url('c_image.jpg');
+       background-size: cover;
+       background-position: top center;
+       position: relative;
+       z-index: 1;
+       color: white;
+       font-size: 200%;
+       min-height: 75vh;
+   }
+   .conta{
+    align-items: flex-start;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.put{
+    align-items: flex-start;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
