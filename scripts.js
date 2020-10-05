@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
   jQuery("button").click(function() {
-    alert("Thank you Your feedback is recorded");
+    alert(" Thank you Your feedback is recorded");
   });
   $(".hid1").click(function() {
     $(".dis1").toggle();
